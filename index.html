@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link href="styling.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>5ft Apart</title>
+ </head>
+ <body>
+   <section class="header">
+     <nav>
+       <a href="index.html"><img src="img/mini-5ftapart-logo.png".</a>
+       <div class="n-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="About Us.html">About us</a></li>
+           <li><a href="album.html">Album</a></li>
+           <li><a href="blogs.html">Blogs</a></li>
+           <li><a href="contacts.html">Contacts</a></li>
+         </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+
+<div class="text-box">
+  <h1>5FT APART</h1>
+  <p>A group of aspiring content creators with a variety of contents and ideas</p>
+  <a href="roadmap.html" class="button">Future Content</a>
+</div>
+   </section>
+
+   <section class="videos"> <!-- Youtube vids -->
+     <h1>Videos</h1>
+     <p>Latest videos posted from our main channel</p>
+     <div class="row">
+       <div class="you-videos">
+         <h3>Just Today</h3>
+         <p>Videos that just released today</p>
+       </div>
+       <div class="you-videos">
+         <h3>A few days ago</h3>
+         <p>Videos that released yesterday or within the week</p>
+       </div>
+       <div class="you-videos">
+         <h3>Old</h3>
+         <p>Videos posted more than a week ago</p>
+       </div>
+     </div>
+
+   </section>
+
+   <section class="blogs"> <!-- Blogs -->
+     <h1>Blogs</h1>
+     <p>A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries.</p>
+     <div class="row">
+       <div class="blog-column">
+         <img src="img/bathtub.jpg">
+         <div class="layer">
+           <h3>The Bathtubs</h3></a>
+         </div>
+       </div>
+     <div class="blog-column">
+       <img src="img/jmkohler.jpg">
+       <div class="layer">
+         <h3>John Micheal Kohler</h3>
+       </div>
+     </div>
+     <div class="blog-column">
+       <img src="img/fake-blood.jpg">
+       <div class="layer">
+         <h3>Fake Blood</h3>
+       </div>
+     </div>
+   </div>
+   </section>
+
+   <section class="contact"> <!-- Contact -->
+     <h1>For comments & opinions<br>please do contact us</h1>
+     <a href="contacts.html" class="button">CONTACT US</a>
+   </section>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>A group of Pinoy College students making various content in youtube & other social medias</p>
+  <div class="icons">
+    <a target="blank"href="https://www.youtube.com/channel/UC0CMDe6j1DZJXyjRkwLVQiQ"><i class="fa fa-youtube-play"></i></a>
+    <a target="blank" href="https://www.instagram.com/0005ftapart/"><i class="fa fa-instagram"></i></a>
+  </div>
+</section>
+   <script>
+<!--jscript for the toggle menu -->
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.right = "0";
+          }
+          function hide(){
+            navLinks.style.right = "-200px";
+          }
+   </script>
+
+
+</body>
+</html>

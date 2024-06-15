@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link href="styling.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>5ft Apart</title>
+ </head>
+ <body>
+   <section class="subheader">
+     <nav>
+       <a href="index.html"><img src="img/mini-5ftapart-logo.png"></a>
+       <div class="n-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="About Us.html">About us</a></li>
+           <li><a href="album.html">Album</a></li>
+           <li><a href="blogs.html">Blogs</a></li>
+           <li><a href="contacts.html">Contacts</a></li>
+         </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+     <h1>About Us</h1>
+</section>
+
+<!-- About Us Content-->
+<img src="img/boys.jpeg">
+<section class="about-us">
+  <div class="row">
+    <div class="about">
+      <h1>We are 5ft Apart!</h1>
+      <p>Well not literally 5ft Apart, we're a bunch of pinoy College & SHS students in a group called 5ft Apart.
+      We plan to make a variety of contents in our main channel just for fun and nothing else.
+    <br> The group was visualized on 26/10/21, though it was only Chris and Dexer back then. The group only planned to make podcast talking about everyday things
+  because non of the duo knew how to edit a video at the time & they just want to leave a video for their future selves to look back and laugh, this changed when Dexer tried recruiting 2 people who knew how to edit, resulting to one agreeing,
+and that was Kobe. Kobe was the perfect 3rd member, willing and motivated, and actually knows how to edit quite well.<br> Eventually the group started expanding their ideas rapidly
+& the preparation for future videos were being done. Although success & fame may not come immediately, all is good, afterall we're just doing this for fun.</p>
+      <a href="album.html" class="button red-button">See More</a>
+    </div>
+    <div class="about">
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>A group of Pinoy College students making various content in youtube & other social medias</p>
+  <div class="icons">
+    <a target="blank"href="https://www.youtube.com/channel/UC0CMDe6j1DZJXyjRkwLVQiQ"><i class="fa fa-youtube-play"></i></a>
+    <a target="blank" href="https://www.instagram.com/0005ftapart/"><i class="fa fa-instagram"></i></a>
+  </div>
+</section>
+   <script>
+<!--jscript for the toggle menu -->
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.right = "0";
+          }
+          function hide(){
+            navLinks.style.right = "-200px";
+          }
+   </script>
+
+
+</body>
+</html>
